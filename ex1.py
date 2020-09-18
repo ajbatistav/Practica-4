@@ -5,15 +5,19 @@ class monitor:
       self.contraste = 50
       self.señal = 1
 
-    def encender(self):
-        if self.power > 0:
-            print ("Bienvenido")
-            if self.señal = 1:
-                print ("Buscando señal")
-                print("Cargando imagen")
-            else:
-                print("No se encuentra señal")
-        else:
-            print("Not power")
-    
+class gato:
+    def __init__(self,raza,color):
+        self.raza = raza
+        self.numeropatas = 4
+        self.numerodebigotes = 12
+        self.color = color
 
+class celular:
+    def __init__(self, marca, color,OS):
+        self.marca = marca
+        self.color = color
+        self.touch = True
+        self.OS = OS
+        
+
+    
